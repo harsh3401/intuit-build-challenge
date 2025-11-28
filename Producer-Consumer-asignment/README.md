@@ -5,7 +5,7 @@
 3. Create the core logic for the same for handling init data and join everything in the main thread
 
 
-## Instructions 
+## Given Instructions 
 
 • Testing Objectives:
 • Thread synchronization
@@ -15,3 +15,7 @@
 
 • Write comprehensive unit tests
 • Document code with comments
+
+## Run instructions
+
+- ./scripts/setup_env.sh to run the python env setup 
