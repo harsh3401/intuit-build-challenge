@@ -19,3 +19,4 @@
 ## Run instructions
 
 - ./scripts/setup_env.sh to run the python env setup 
+- python main.py to run the main program
