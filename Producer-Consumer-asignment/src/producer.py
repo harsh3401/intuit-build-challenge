@@ -1,7 +1,7 @@
 import threading
 import time
 from typing import List, Any
-from blocking_queue import BlockingQueue
+from .blocking_queue import BlockingQueue
 
 class Producer(threading.Thread):
     """Producer thread: reads from a source container and enqueues items."""

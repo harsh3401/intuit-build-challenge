@@ -7,11 +7,11 @@
 
 ## Given Instructions 
 
-• Testing Objectives:
-• Thread synchronization
-• Concurrent programming
-• Blocking queues
-• Wait/Notify mechanism
+### Testing Objectives:
+    • Thread synchronization
+    • Concurrent programming
+    • Blocking queues
+    • Wait/Notify mechanism
 
 • Write comprehensive unit tests
 • Document code with comments
@@ -19,4 +19,6 @@
 ## Run instructions
 
 - ./scripts/setup_env.sh to run the python env setup 
-- python main.py to run the main program
+- python3 main.py to run the main program
+- `python3 -m unittest discover tests` - All tests 
+- `python3 -m unittest tests.test_producer` - Individual tests

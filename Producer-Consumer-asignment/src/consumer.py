@@ -1,7 +1,7 @@
 import threading
 import time
 from typing import List, Any
-from blocking_queue import BlockingQueue
+from .blocking_queue import BlockingQueue
 
 class Consumer(threading.Thread):
     """Consumer thread: dequeues items and writes them to a destination container."""

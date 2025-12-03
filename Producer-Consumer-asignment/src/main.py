@@ -1,7 +1,7 @@
 from typing import List
-from blocking_queue import BlockingQueue
-from producer import Producer
-from consumer import Consumer
+from .blocking_queue import BlockingQueue
+from .producer import Producer
+from .consumer import Consumer
 
 def main():
     """ Initialize all objects and start the threads for producer and consumer and join them """
