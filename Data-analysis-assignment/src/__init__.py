@@ -1,0 +1,2 @@
+"""Superstore data analysis package."""
+
